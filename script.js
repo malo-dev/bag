@@ -38,6 +38,7 @@ if (Book) {
 		<p>Nom de l'auteur : ${item.author} 
 		 </p>\n  <button>${item.button}</button>`
 		h1.children[2].addEventListener('click', () => {
+			window.location.href="/"
 			window.sessionStorage.removeItem('book')
 		const malo =	BOOK.filter((element) => {
 				return element != item
@@ -59,6 +60,7 @@ if (Book) {
 
 addContainer[2].addEventListener("click", () => {
 	handleAddBook()
+	window.location.href="/"
 })
 
 
