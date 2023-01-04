@@ -2,6 +2,7 @@ let BOOK = [];
 let h1;
 const addChilContainer = document.querySelector('.container1')
 const addContainer = document.querySelector('.container2').children
+
 const inputFirst = addContainer[0]
 const inputSec = addContainer[1]
 
